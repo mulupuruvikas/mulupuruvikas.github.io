@@ -34,9 +34,6 @@ const Contact = () => {
                     <a className='social-icons' href='https://discord.com/users/vikas#6382'>
                         <FontAwesomeIcon icon={faDiscord} />
                     </a>
-                    <a className='social-icons' href='https://twitter.com/MulupuruVikas'>
-                        <FontAwesomeIcon icon={faTwitter} />
-                    </a>
                     <a className='social-icons' href='https://medium.com/@vikas.mulupuru'>
                         <FontAwesomeIcon icon={faMedium} />
                     </a>
