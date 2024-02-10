@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c78e4ea3.css",
+    "main.js": "/static/js/main.09aaf478.js",
+    "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/Menlo-Regular.ttf": "/static/media/Menlo-Regular.92e41f43900c256f2286.ttf",
+    "static/media/logo-sub.png": "/static/media/logo-sub.ca33050dbba685ba7577.png",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/logo-v.png": "/static/media/logo-v.87edfcc1f580af85f752.png",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "main.c78e4ea3.css.map": "/static/css/main.c78e4ea3.css.map",
+    "main.09aaf478.js.map": "/static/js/main.09aaf478.js.map",
+    "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c78e4ea3.css",
+    "static/js/main.09aaf478.js"
+  ]
+}
