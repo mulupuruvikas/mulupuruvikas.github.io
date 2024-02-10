@@ -6,6 +6,7 @@ import {
     faJava,
     faReact,
 } from '@fortawesome/free-brands-svg-icons'
+import OCaml from '../../assets/images/ocaml.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
@@ -30,7 +31,7 @@ const About = () => {
                     things computer related. I'm always ready to learn!
                 </p>
                 <p>
-                    <br/>Apart from coding, I blog about music. Check out my medium profile in the 'Contact Me' page!
+                    <br/>Apart from coding, I blog about music. Check out my Medium profile in the 'Contact Me' page!
                 </p>
             </div>
 
@@ -43,7 +44,7 @@ const About = () => {
                         <FontAwesomeIcon icon={faHtml5} color="#F06529" />
                     </div>
                     <div className="face3">
-                        <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                        <img src={OCaml} color="#28A4D9" width="100"></img>
                     </div>
                     <div className="face4">
                         <FontAwesomeIcon icon={faReact} color="#5ED4F4" />

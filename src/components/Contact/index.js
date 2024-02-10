@@ -18,7 +18,7 @@ const Contact = () => {
                         </p>
                     </div>
                     <p>
-                        I'd love to hear about any computer science related opprtunities! My inbox is always open, so feel free to email me, and I will try my best to get back to you.
+                        I'd love to hear about any computer science related opportunities! My inbox is always open, so feel free to email me, and I will try my best to get back to you.
                     </p>
                 </div>
                 <div className='single-col socials-icons d-flex justify-content-evenly'>

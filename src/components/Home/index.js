@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './index.scss';
+import Me from '../../assets/images/me.png'
 
 const Home = () => {
 
@@ -10,18 +11,22 @@ const Home = () => {
             </span>
             <div className="text-zone" >
                 <div class="css-typing">
-                    <p>
+                    <h1>
                         hi!
-                    </p>
-                    <p>
+                    </h1>
+                    <h1>
                         it's vikas,
-                    </p>
-                    <p>
+                    </h1>
+                    <h1>
                         software engineer.
-                    </p>
+                    </h1>
                 </div>
                 <h2>Undergraduate Student / University of Minnesota</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+
+                <div className="me">
+                    <img src={Me}></img>                
+                </div>
             </div >
         </div>
     )

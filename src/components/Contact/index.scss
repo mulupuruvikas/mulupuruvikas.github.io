@@ -22,11 +22,14 @@
     max-height: 90%;
     color: #fff;
     font-family: 'Menlo-Regular', sans-serif;
-
+    .css-typing  {
+        p {
+            width: 400px;
+            color: darkorange;
+        }
+    }
     p {
-        width: 400px;
-        animation: fadeIn 1s 2.5s backwards;
-        color: darkorange;
+        width: 80%;
     }
 }
 
@@ -55,75 +58,6 @@
     font-family: 'Menlo-Regular', sans-serif;
     height: fit-content;
 }
-.css-typing p {
-    color: #fff;
-    line-height: 40px;
-    margin-inline-end: 5px;
-    margin: 2px;
-    border-right: .15em solid orange;
-    font-family: "Menlo-Regular", sans-serif;
-    font-size: 35px;
-    white-space: nowrap;
-    overflow: hidden;
-    top: 1%;
-    bottom: 1%;
-}
-
-.css-typing p:nth-child(1) {
-    border-right: .15em solid orange;
-    width: 6.25em;
-    opacity: 0;
-    -webkit-animation: type3 5s steps(13, end), blink .5s step-end infinite alternate;
-    animation: type3 5s steps(13, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    animation-duration: 850ms;
-}
-
-
-
-@keyframes type3 {
-    0% {
-        width: 0;
-    }
-
-    1% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes type3 {
-    0% {
-        width: 0;
-    }
-
-    1% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-}
-
-@-webkit-keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-}
-
 .terminal-entry {
     bottom: auto;
     top: 35px;

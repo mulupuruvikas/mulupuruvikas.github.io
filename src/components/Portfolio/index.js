@@ -11,33 +11,43 @@ const Portfolio = () => {
             <span className="tags top-tags"><b>Last login: Wed Feb 15 09:41:27 on console <br /> vikas@personal-website@work-history</b></span>
             <div className="text-zone">
                 <div className="titles">
-                    <div class="css-typing2">
+                    <div class="experience-heading">
                         <p>
-                            experience:
+                            <b>experience:</b>
                         </p>
                     </div>
-                    <div class="css-typing3">
+                    <div class="project-heading">
                         <p>
-                            projects:
+                            <b>projects:</b>
                         </p>
                     </div>
                 </div>
                 <div className="bodies">
                     <div class="experience">
-                        <h3><b>@Tech For Good Inc / Jun-Aug 2023</b></h3>
-                        <p> >>>&nbsp; &nbsp; &nbsp; Managed 3 teams in building an open‑source tool that decreases ...&nbsp; &nbsp; &nbsp; the cost of cloud computing for individuals and small businesses
+                        <h3><b>@ Microsoft / May-Aug 2024</b></h3>
+                        <p> >>>&nbsp; &nbsp; &nbsp; Incoming software engineering intern for Microsoft
+                        
+
+                        </p>
+                        <h3><b>@ Tech For Good Inc / Jun-Aug 2023</b></h3>
+                        <p> >>>&nbsp; &nbsp; &nbsp; Managed 3 teams in building an open‑source tool that decreases <br></br>
+                        ...&nbsp; &nbsp; &nbsp; the cost of cloud computing for individuals and small businesses <br></br>
                             ...&nbsp; &nbsp; &nbsp; by utilizing AWS, Azure and GCP spot/preemptive instances.
-                            <br></br>
-                        >>>&nbsp; &nbsp; &nbsp; Personally led the backend team where we used the AWS, Azure and
+                            <br></br> <br></br>
+                        >>>&nbsp; &nbsp; &nbsp; Personally led the backend team where we used the AWS, Azure and <br></br>
                             ...&nbsp; &nbsp; &nbsp; GCP SDK for Java to create spot requests and created a REST API <br></br>
                             ...&nbsp; &nbsp; &nbsp; to identify the possible instances available.
                         </p>
 
-                        <h3>@Microsoft / Jul-Aug 2022</h3>
-                        <p>>>>&nbsp; &nbsp; &nbsp; Prototyped a mobile application using Figma, Python and PowerApps ...&nbsp; &nbsp; &nbsp; that incentivizes employees to monitor and reduce their carbon <br />...&nbsp; &nbsp; &nbsp; footprint on the Redmond/Bellevue campus, enabling Microsoft to ...&nbsp; &nbsp; &nbsp; be carbon neutral by 2030. <br /> >>>&nbsp; &nbsp; &nbsp; Employees are incentivized to progressively adapt to a more <br />...&nbsp; &nbsp; &nbsp; environmentally friendly lifestyle.</p>
+                        <h3>@ Microsoft / Jul-Aug 2022</h3>
+                        <p>>>>&nbsp; &nbsp; &nbsp; Prototyped a mobile application using Figma, Python and PowerApps <br></br>
+                        ...&nbsp; &nbsp; &nbsp; that incentivizes employees to monitor and reduce their carbon <br></br>
+                        ...&nbsp; &nbsp; &nbsp; footprint on the Redmond/Bellevue campus, enabling Microsoft to <br></br>
+                        ...&nbsp; &nbsp; &nbsp; be carbon neutral by 2030. <br></br><br /> >>>&nbsp; &nbsp; &nbsp; Employees are incentivized to progressively adapt to a more <br />...&nbsp; &nbsp; &nbsp; environmentally friendly lifestyle.</p>
 
-                        <h3><b>@Tech For Good Inc / Jun-Aug 2021</b></h3>
-                        <p>>>>&nbsp; &nbsp; &nbsp; Delivered blockchain-based solutions using Flask and React.js to ...&nbsp; &nbsp; &nbsp; track user donations to communities in developing countries.</p>
+                        <h3><b>@ Tech For Good Inc / Jun-Aug 2021</b></h3>
+                        <p>>>>&nbsp; &nbsp; &nbsp; Delivered blockchain-based solutions using Flask and React.js to <br></br>
+                        ...&nbsp; &nbsp; &nbsp; track user donations to communities in developing countries.</p> <br></br><br></br>
                     </div>
                     <div className="paper-trading-platform">
                         
