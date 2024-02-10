@@ -1,0 +1,139 @@
+.socials-icons a {
+    color: white;
+    font-size: 2.75rem;
+    bottom: auto;
+    margin-right: 5px;
+    border-radius: 75%;
+    border: 2px solid white;
+    padding: 15px 15px 15px 15px;
+
+    &:hover {
+        background: #fff;
+        color: #333;
+    }
+}
+
+.text-zone {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    transform: translateY(-50);
+    width: 40%;
+    max-height: 90%;
+    color: #fff;
+    font-family: 'Menlo-Regular', sans-serif;
+    .css-typing  {
+        p {
+            width: 400px;
+            color: darkorange;
+        }
+    }
+    p {
+        width: 80%;
+    }
+}
+
+.single-col {
+    
+    max-width: 750px;
+    margin: 125px;
+    border-spacing: 50px;
+    margin-top: 350px;
+
+
+}
+
+.top-tags {
+    bottom: auto;
+    top: 15px;
+}
+
+.tags {
+    color: #ffd700;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    font-size: 14px;
+    font-family: 'Menlo-Regular', sans-serif;
+    height: fit-content;
+}
+.terminal-entry {
+    bottom: auto;
+    top: 35px;
+    color: #ffd700;
+    opacity: 0.6;
+    position: absolute;
+    left: 120px;
+    font-size: 14px;
+    font-family: 'Menlo-Regular', sans-serif;
+}
+
+
+.page-content {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    color: darkorange;
+    transform: translateY(-50);
+    width: 40%;
+    max-height: 90%;
+    font-family: 'Menlo-Regular', sans-serif;
+}
+
+
+.map-wrap {
+    background: rgba(8, 253, 216, 0.1);
+    float: right;
+    width: 53%;
+    height: 150%;
+    margin-top: -50%;
+}
+
+.leaflet-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.info-map {
+    position: absolute;
+    background: #000;
+    top: 300px;
+    right: 25%;
+    z-index: 999999;
+    width: 267px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+    height: fit-content;
+
+    span {
+        font-size: 16px;
+
+        span {
+            color: #ffd700;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .map-wrap {
+        float: none;
+        margin: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    .info-map {
+        display: none;
+    }
+}

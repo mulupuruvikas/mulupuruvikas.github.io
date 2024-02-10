@@ -1,0 +1,119 @@
+.portfolio-page::-webkit-scrollbar {
+    display: none;
+}
+
+.portfolio-page {
+    .top-tags {
+        bottom: auto;
+        top: 15px;
+    }
+
+    height: 100%;
+    overflow-y: scroll;
+
+
+    .tags {
+        color: #ffd700;
+        opacity: 0.6;
+        position: absolute;
+        bottom: 0;
+        left: 120px;
+        font-size: 14px;
+        font-family: 'Menlo-Regular', sans-serif;
+        height: fit-content;
+    }
+
+    .text-zone {
+        left: 10%;
+        top: 15%;
+        transform: translateY(75);
+        width: 100%;
+        max-height: 100%;
+
+        .titles {
+            p {
+                color: darkorange;
+                font-size: 30px;
+            }
+        }
+    }
+
+    .titles {
+        display: grid;
+        grid-template-columns: 50% 50%; /* Creates two equally sized columns */
+        grid-gap: 10px;
+
+        .project-heading {
+            margin-left: -10%;
+        }
+    }
+
+    .bodies {
+        display: grid;
+        grid-template-columns: 100% 100%; /* Creates two equally sized columns */
+        grid-gap: 10px;
+
+
+        .experience {
+            animation: fadeIn 0.5s 1.5s backwards;
+            color: darkorange;
+            width: 55%;
+    
+            p {
+                color: #fff;
+                font-family: "Menlo-Regular", sans-serif;
+                margin-bottom: 45px;
+                width: 100%;
+            }
+    
+            h3 {
+                font-size: larger;
+                width: 80%;
+            }
+        }
+
+        .paper-trading-platform {
+            animation: fadeIn 0.5s 1.5s backwards;
+            margin-top: 20px;
+            margin-left: -55%;
+            width: 40%;
+
+            img {
+                width: 100%;
+                height: auto;
+                border: 5px solid black;
+            }
+
+            .subtitle {
+                display: flex;
+                align-items: center;
+
+                h2 {
+                    animation: none;
+                    color: white;
+                    font-size: 18px;
+                    font-family: 'Menlo-Regular', sans-serif;
+                }
+
+                a {
+                    margin-left: 55%;
+                }
+
+                .github {
+                    margin-top: 0px;
+                    width: 25px;
+                    width: 25px;
+                    height: auto;
+                }
+            }
+
+            h3 {
+                color: darkorange;
+            }
+
+            p {
+                color: #ffd700;
+            }
+        }
+    }
+}
